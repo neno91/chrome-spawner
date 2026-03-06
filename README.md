@@ -21,19 +21,22 @@ Double-click `chrome-spawner.bat` or run from terminal:
 chrome-spawner.bat
 
 
+### macOS
 
-You'll be prompted for:
+chmod +x chrome-spawner-mac.sh
+./chrome-spawner-mac.sh
+
+
+### Linux
+
+chmod +x multi-chrome-linux.sh
+./multi-chrome-linux.sh
+
+
+All versions prompt for:
 
 Enter address: https://example.com
 How many browsers to open? 4
-
-
-
-### macOS
-
-chmod +x chrome-spawner.sh
-./chrome-spawner.sh
-
 
 
 Same prompts as above.
@@ -43,6 +46,9 @@ Same prompts as above.
 - Google Chrome installed in the default location
 - **Windows:** PowerShell (included with Windows)
 - **macOS:** No additional dependencies
+- **Linux:** `xdotool` and `xdpyinfo` for window arrangement
+
+sudo apt install xdotool x11-utils
 
 ## How It Works
 
