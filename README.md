@@ -24,12 +24,14 @@ chrome-spawner.bat
 ### macOS
 
 chmod +x chrome-spawner-mac.sh
+
 ./chrome-spawner-mac.sh
 
 
 ### Linux
 
 chmod +x multi-chrome-linux.sh
+
 ./multi-chrome-linux.sh
 
 
