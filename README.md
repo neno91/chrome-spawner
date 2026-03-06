@@ -1,4 +1,4 @@
-# multi-chrome
+# Chrome-spawner
 
 Launch multiple isolated Chrome instances with fresh profiles and auto-arrange them in a grid. Supports Windows and macOS.
 
@@ -17,8 +17,8 @@ Testing multi-user scenarios, comparing sessions, or debugging auth flows often 
 
 ### Windows
 
-Double-click `multi-chrome.bat` or run from terminal:
-multi-chrome.bat
+Double-click `chrome-spawner.bat` or run from terminal:
+chrome-spawner.bat
 
 
 
@@ -31,8 +31,8 @@ How many browsers to open? 4
 
 ### macOS
 
-chmod +x multi-chrome.sh
-./multi-chrome.sh
+chmod +x chrome-spawner.sh
+./chrome-spawner.sh
 
 
 
