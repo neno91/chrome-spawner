@@ -32,7 +32,7 @@ chmod +x chrome-spawner-mac.sh
 
 chmod +x multi-chrome-linux.sh
 
-./multi-chrome-linux.sh
+./chrome-spawner-linux.sh
 
 ### All versions prompt for:
 
