@@ -34,10 +34,10 @@ chmod +x multi-chrome-linux.sh
 
 ./multi-chrome-linux.sh
 
-
-All versions prompt for:
+### All versions prompt for:
 
 Enter address: https://example.com
+
 How many browsers to open? 4
 
 
